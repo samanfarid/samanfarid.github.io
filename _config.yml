@@ -6,13 +6,13 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: This is the blog title of the test blog
-description: Thngs stuff and descriptions
+title: Iterations
+description: Iterating on ideas and execution
 github_username: samanfarid
 
 # Email and twitter are optional:
 email:
-twitter_username:
+twitter_username: samanfarid
 
 # Set this to true to get LaTeX math equation support
 use_math:
