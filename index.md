@@ -8,7 +8,7 @@ I currently lead our non-China investments for [Baidu Ventures](www.bv.ai), and 
 
 * [blog](https://medium.com/@samanfarid)
 * [BV blog](https://medium.com/baidu-ventures-blog)
-* [investments] (_posts/2020-06-10-Investments.md)
+* [investments](http://saman.co/2020/06/10/Investments.html)
 * press/media
 
 ![myface](images/saman.jpg)
