@@ -1,10 +1,12 @@
 #Some Investment's I've done
-In no particular order
 
+
+While at Baidu Ventures
 * [Swarmin.ai](http://www.swarmin.ai)
 * [Avail](http://www.avail.io)
+* [AICRETE](https://www.aicrete.com/)
 * [PointCloud](http://www.point.cloud)
-* Machina Labs
+* [Machina Labs](https://www.machinalabs.ai/)
 * [AMP Robotics](http://www.amprobotics.com)
 * [Plotlogic](https://www.plotlogic.com/)
 * [Spatial](https://spatial.io/)
