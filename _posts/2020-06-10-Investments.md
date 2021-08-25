@@ -31,19 +31,19 @@ While at Baidu Ventures
 While at Comet Labs
 * [Abundant Robotics](http://www.abundantrobotics.com) - Robotics for Agriculture
 * [Cobalt Robotcs](http://www.cobaltrobotics.com) - Robotics Platform for Office Environments and Secuirty
-* [Creator](http://creator.rest) (Previously Momentum Machines)
-* [IAM Robotics](http://www.iamrobotics.com)
-* [Grabango](http://www.grabango.com)
-* [InsightRx](http://www.insight-rx.com)
-* [IronOx](http://www.ironox.com)
-* [Arch](http://www.archsys.io)
-* [Maidbot](http://www.maidbot.co)
-* [Otosense](http://www.otosense.com)
-* [Percolata](http://www.percolata.com)
-* [Plutoshift](http://www.plutoshift.com)
-* [Point One Navigation](http://www.pointonenav.com)
-* [Prenav](http://www.prenav.com)
-* [Shaper Tools](http://www.shapertools.com)
-* [Simbe Robotics](http://www.simberobotics.com)
-* [Trascend Robotics](http://www.transcendrobotics.com)
-* [Matternet](http://www.mttr.net)
+* [Creator](http://creator.rest) (Previously Momentum Machines) - Automated restaurant focused initially on gormet burgers
+* [IAM Robotics](http://www.iamrobotics.com) - Fulfillment center robot and scanning solution
+* [Grabango](http://www.grabango.com) - Checkout-free shopping technology
+* [InsightRx](http://www.insight-rx.com) - Using AI to improve drug dosing
+* [IronOx](http://www.ironox.com) - Automated hydroponic greenhouse
+* [Arch](http://www.archsys.io) - IoT Platform
+* [Maidbot](http://www.maidbot.co) - Hotel Cleaning robot
+* [Otosense](http://www.otosense.com) - Sound recognition platform
+* [Percolata](http://www.percolata.com) - Computer vision and predictive AI for retail store management 
+* [Plutoshift](http://www.plutoshift.com) - Using AI to improve industrial process control
+* [Point One Navigation](http://www.pointonenav.com) - New vision based and satellite based precision localiziation technology
+* [Prenav](http://www.prenav.com) - Drones for scaning complex industrial Environments
+* [Shaper Tools](http://www.shapertools.com) - Using computer vision and robotic control to turn anyone into an expert woodworker
+* [Simbe Robotics](http://www.simberobotics.com) - Inventory management for retail environments
+* [Trascend Robotics](http://www.transcendrobotics.com) - Rugged robotic base for complex and hazardous environments
+* [Matternet](http://www.mttr.net) - Delivery Drone & Guidance platform
