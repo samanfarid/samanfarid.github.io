@@ -1,6 +1,7 @@
 
 ## Saman Farid
-I am the founder of [Formic](www.formic.co) and am living in the San Francisco Bay area. We provide robotics to increase the productivity and capacity of factories across the US.
+
+I am the founder and CEO of [Formic](www.formic.co) and live in the San Francisco Bay area. We provide robotics to increase the productivity and capacity of factories across the US.
 
 Prior to this, I ran the global investment fund for [Baidu Ventures](www.bv.ai) focusing on AI, Machine Learning, and it's effects on the way we work and live. I am also the founder of [Comet Labs](www.cometlabs.io) - an AI focused investment fund and incubator. Prior to working as an investor, I built and sold two technology companies (an e-Commerce busienss and an IP Television infrastructure company), worked on technology infrastructure projects in alternative energy, and had short stints at Verizon, Microsoft and Honeywell.
 
@@ -15,5 +16,3 @@ You can write to me at \[firstletterofmyname] \[@] \[formic.co] or find me on tw
 * press/media
 
 <img src="images/DSC_3275.jpg" alt="face" width="200"/>
-
-![myface](images/DSC_3275.jpg)
