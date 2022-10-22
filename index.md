@@ -14,4 +14,6 @@ You can write to me at \[firstletterofmyname] \[@] \[formic.co] or find me on tw
 * [investments](http://saman.co/2020/06/10/Investments.html)
 * press/media
 
+<img src="images/DSC_3275.jpg" alt="face" width="200"/>
+
 ![myface](images/DSC_3275.jpg)
