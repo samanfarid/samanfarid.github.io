@@ -1,6 +1,12 @@
 #Some Investment's I've done
 
+Personal Investments: 
+* Pitpro Automation
+* Revoy (P.K.A. Sixwheel)
+* Medra Health
+* Replit
 
+  
 While at Baidu Ventures
 * [Swarmin.ai](http://www.swarmin.ai) - Federated Machine Learning Infrastructure provider
 * [Avail](http://www.avail.io) - Interactive Telepresence System for Operating Rooms
