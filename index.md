@@ -7,7 +7,7 @@ Prior to this, I ran the global investment fund for [Baidu Ventures](https://www
 
 Some of my past experiences are outlined on my [linkedin](https://www.linkedin.com/in/samanfarid/). I also am passionate about youth empowerment and work with [East Bay Lights](https://www.eastbaylights.us) when I am able.
 
-You can write to me at \[firstletterofmyname] \[@] \[formic.co] or find me on twitter [@samanfarid](https://twitter.com/samanfarid)
+You can write to me at \[firstletterofmyname] \[@] \[formic.co] or find me on twitter / X [@samanfarid](https://twitter.com/samanfarid)
 
 * [Formic blog](https://formic.co/resources)
 * [blog](https://medium.com/@samanfarid)
