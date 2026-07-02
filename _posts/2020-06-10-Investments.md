@@ -1,13 +1,18 @@
-#Some Investment's I've done
+---
+layout: post
+title: Investments
+description: Robotics and AI companies Saman Farid has invested in across Baidu Ventures, Comet Labs, and personally.
+---
 
-Personal Investments: 
+A selection of companies I've backed as an investor and operator.
+
+### Personal investments
 * Pitpro Automation
 * Revoy (P.K.A. Sixwheel)
 * Medra Health
 * Replit
 
-  
-While at Baidu Ventures
+### While at Baidu Ventures
 * [Swarmin.ai](http://www.swarmin.ai) - Federated Machine Learning Infrastructure provider
 * [Avail](http://www.avail.io) - Interactive Telepresence System for Operating Rooms
 * [AICRETE](https://www.aicrete.com/) - Using AI and Robotics to optimize concrete mixes
@@ -34,7 +39,7 @@ While at Baidu Ventures
 * [Strateos](https://www.strateos.com/) - Digital pathology and autoated lab for biology
 * [Sherlock Bioscience](http://www.sherlock.bio) - CRISPR Based Rapid Diagnostics Platform
 
-While at Comet Labs
+### While at Comet Labs
 * [Abundant Robotics](http://www.abundantrobotics.com) - Robotics for Agriculture
 * [Cobalt Robotcs](http://www.cobaltrobotics.com) - Robotics Platform for Office Environments and Secuirty
 * [Creator](http://creator.rest) (Previously Momentum Machines) - Automated restaurant focused initially on gormet burgers

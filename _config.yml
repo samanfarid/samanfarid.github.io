@@ -7,8 +7,10 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Saman Farid
-description: ''
+description: 'Founder & CEO of Formic — robotics to increase the productivity of American factories.'
+url: 'https://saman.co'
 github_username: samanfarid
+linkedin_username: samanfarid
 
 # Email and twitter are optional:
 email:
@@ -32,6 +34,17 @@ titles_from_headings:
   enabled:     true
   strip_title: true
   collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 highlighter: rouge
 markdown: kramdown

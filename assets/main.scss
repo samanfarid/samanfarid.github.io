@@ -2,61 +2,252 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "{{ site.theme }}";
+/* ============================================================
+   saman.co — modern dark personal site
+   ============================================================ */
 
-.post img {
-        display: block;
-        border:1px solid #021a40;
-        vertical-align: top;
-        margin-left: auto;
-        margin-right: auto;
+:root {
+  --bg:        #0a0a0b;
+  --bg-soft:   #141417;
+  --card:      #141519;
+  --card-hover:#1b1c22;
+  --border:    #26272e;
+  --border-hi: #3a3b45;
+  --text:      #ececee;
+  --muted:     #9a9ba3;
+  --faint:     #6c6d76;
+  --accent:    #ff6a3d;
+  --accent-dim:#ff6a3d33;
+  --radius:    14px;
+  --maxw:      640px;
 }
 
-.post figcaption {
-  text-align: center;
-  font-size: .8rem;
-  font-style: italic;
-  color: light-grey;
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
 }
 
-.language-python { border-left: 1px solid lightcoral; }
-
-.language-python + .language-plaintext {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
-}
-.language-python + .language-plaintext code { background-color: white !important; }
-.language-python + .language-plaintext pre  { background-color: white !important; }
-
-// for Jupyter Notebook HTML Code Cells from https://www.fast.ai/public/css/hyde.css
-
-.input_area pre, .input_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
-}
-.output_area pre, .output_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
-        background-color: white !important;
-}
-.input_area pre {
-        border-left: 1px solid lightcoral;
-}
-.output_area pre {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
-}
-.codecell {
-        border-right: 2px solid lightgrey;
-        margin-bottom:1rem !important;
-        margin-top:1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
+/* ambient glow behind the content */
+.glow {
+  position: fixed;
+  top: -260px;
+  left: 50%;
+  width: 780px;
+  height: 780px;
+  transform: translateX(-50%);
+  background: radial-gradient(circle at center, var(--accent-dim) 0%, transparent 62%);
+  filter: blur(20px);
+  pointer-events: none;
+  z-index: 0;
 }
 
-.codecell table { width: auto; }
+.wrap {
+  position: relative;
+  z-index: 1;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: clamp(3.5rem, 10vw, 6rem) 1.5rem 2rem;
+}
 
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- hero ---------- */
+.hero { margin-bottom: 2.5rem; }
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid var(--border-hi);
+  box-shadow: 0 0 0 4px var(--bg), 0 8px 30px rgba(0,0,0,.5);
+  margin-bottom: 1.4rem;
+}
+
+.name {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-size: clamp(2.4rem, 8vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.5rem;
+}
+
+.role {
+  font-size: 1.15rem;
+  color: var(--text);
+  margin: 0 0 0.6rem;
+  font-weight: 500;
+}
+.role a { color: var(--accent); }
+
+.tagline {
+  color: var(--muted);
+  margin: 0;
+  font-size: 1rem;
+}
+.tagline .mark { color: var(--accent); font-size: 0.8em; }
+
+/* ---------- bio ---------- */
+.bio { margin-bottom: 2.75rem; }
+.bio p {
+  color: #c9cace;
+  margin: 0 0 1.1rem;
+}
+.bio p:last-child { margin-bottom: 0; }
+.bio a { color: var(--text); border-bottom: 1px solid var(--accent); }
+.bio a:hover { color: var(--accent); text-decoration: none; }
+
+/* ---------- link cards ---------- */
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 2.75rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 1.05rem 1.15rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  transition: border-color .18s ease, background .18s ease, transform .18s ease;
+}
+.card:hover {
+  background: var(--card-hover);
+  border-color: var(--border-hi);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.card-title {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+.card-sub { color: var(--faint); font-size: 0.85rem; line-height: 1.4; }
+.card .arrow {
+  position: absolute;
+  top: 0.9rem;
+  right: 1rem;
+  color: var(--faint);
+  transition: color .18s ease, transform .18s ease;
+}
+.card:hover .arrow { color: var(--accent); transform: translate(2px, -2px); }
+
+/* ---------- contact ---------- */
+.contact p { color: var(--muted); font-size: 0.95rem; margin: 0; }
+.email {
+  color: var(--text);
+  font-family: "Space Grotesk", monospace;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.9rem;
+}
+
+/* ---------- footer ---------- */
+.site-footer {
+  position: relative;
+  z-index: 1;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 3rem;
+  color: var(--faint);
+  font-size: 0.85rem;
+}
+.site-footer .dot { margin: 0 0.5rem; }
+
+/* ---------- prose pages (Investments, etc.) ---------- */
+.prose {
+  position: relative;
+  z-index: 1;
+}
+.back { margin: 0 0 2rem; }
+.back a { color: var(--muted); font-size: 0.9rem; }
+.back a:hover { color: var(--accent); text-decoration: none; }
+
+.page-title {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-size: clamp(2rem, 6vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin: 0 0 1.75rem;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 2.25rem 0 0.75rem;
+  line-height: 1.2;
+}
+.prose h1 { font-size: 1.9rem; }
+.prose h2 { font-size: 1.4rem; }
+.prose h3 { font-size: 1.15rem; color: var(--muted); text-transform: none; }
+.prose p { color: #c9cace; }
+.prose a { color: var(--text); border-bottom: 1px solid var(--accent); }
+.prose a:hover { color: var(--accent); text-decoration: none; }
+.prose ul { padding-left: 1.1rem; }
+.prose li { margin: 0.35rem 0; color: #c9cace; }
+.prose li a { border-bottom: 1px solid var(--border-hi); }
+.prose hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin: 1.5rem auto;
+}
+.prose blockquote {
+  border-left: 2px solid var(--accent);
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.2rem;
+  color: var(--muted);
+}
+.prose code {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-size: 0.9em;
+}
+.prose pre {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+}
+.prose pre code { background: none; border: none; padding: 0; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 520px) {
+  .links { grid-template-columns: 1fr; }
+  body { font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card, .card .arrow { transition: none; }
+}
