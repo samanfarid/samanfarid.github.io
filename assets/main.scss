@@ -246,7 +246,8 @@ a:focus-visible, button:focus-visible {
 .media-item .arrow { color: var(--signal); font-size: 20px; text-align: right; }
 
 @media (max-width: 700px) {
-  .k-navlinks { display: none; }
+  .k-nav { min-height: 0; flex-wrap: wrap; padding-top: 13px; padding-bottom: 13px; }
+  .k-navlinks { order: 3; width: 100%; justify-content: space-between; gap: 10px; font-size: 9px; }
   .k-hero { grid-template-columns: 1fr 80px; gap: 16px; }
   .k-rail { padding-left: 10px; }
   .k-portrait { width: 56px; height: 56px; }
