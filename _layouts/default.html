@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
-  <body>
-    <div class="glow" aria-hidden="true"></div>
-    <main class="wrap">
-      {{ content }}
-    </main>
-    <footer class="site-footer">
-      <span>&copy; {{ site.time | date: "%Y" }} Saman Farid</span>
-      <span class="dot">&middot;</span>
-      <span>Built in San Francisco</span>
+  <body class="kinetic-site">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {{ content }}
+    <footer class="k-footer">
+      <span>Saman Farid / Field record</span>
+      <span><a href="https://www.linkedin.com/in/samanfarid/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://medium.com/@samanfarid">Writing</a></span>
+      <span>s [at] formic [dot] co</span>
     </footer>
   </body>
 </html>
